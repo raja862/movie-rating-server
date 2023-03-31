@@ -1,0 +1,44 @@
+
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.body{
+    background: rgb(161,50,150);
+background: -moz-radial-gradient(circle, rgba(161,50,150,0.5620842086834734) 27%, rgba(159,130,53,0.5144651610644257) 63%);
+background: -webkit-radial-gradient(circle, rgba(161,50,150,0.5620842086834734) 27%, rgba(159,130,53,0.5144651610644257) 63%);
+background: radial-gradient(circle, rgba(161,50,150,0.5620842086834734) 27%, rgba(159,130,53,0.5144651610644257) 63%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a13296",endColorstr="#9f8235",GradientType=1);
+}
